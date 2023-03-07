@@ -1,0 +1,111 @@
+/* Colors and fonts */
+
+body{
+	background: #E1D7C6;
+	color: #4E6E81;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+h1, h3{
+	font-family: 'Tilt Warp', cursive;
+}
+
+h1{
+	color: #FF0303;
+	font-size: 35px;
+}
+
+h2{
+	color: #2E3840
+	font-family: font-family: 'Poppins', sans-serif;;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+
+a {
+	text-decoration: none;
+	color: #2E3840;
+	font-weight: bold;
+}
+a:hover {
+	color: white;
+	
+}
+
+/*Custom design with class*/
+
+ .container {
+        width: 700 px;
+        margin: 40 px auto;
+ }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+        background: #EEEEEE;
+        width: 700 px;
+        margin: 40px 90px;
+    padding: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+#PP {
+        border-radius: 60%;
+        box-shadow: 8px 8px 4px rgba(60, 60, 60, 0.6);
+}
+
+#introduction p {
+        margin-bottom: 35px;
+}
+
+.btn-pink {
+        background-color: #DBA39A;
+        color: #EEEEEE;;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+}
+
+.btn-pink:hover {
+                background-color: #85586F;
+}
+
+.list-inline {
+        list-style: none;
+        padding-left: 0px;
+}
+
+.list-inline li {
+        display: inline;
+        padding: 10px;
+}
